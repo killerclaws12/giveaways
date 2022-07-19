@@ -1,0 +1,36 @@
+{
+  "name": "Giveaways",
+  "version": "1.0.0",
+  "description": "The perfect giveaway bot to host giveaways easily on your server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "sandarutharuneth",
+  "license": "CC-sandarutharuneth",
+  "keywords": [
+    "discord",
+    "giveaways",
+    "giveaway",
+    "bot",
+    "discord.js",
+    "discordjs"
+  ],
+  "dependencies": {
+    "discord-giveaways": "^5.0.1",
+    "discord.js": "^13.6.0",
+    "ms": "^3.0.0-canary.1",
+    "nodemon": "^2.0.19",
+    "parsec": "^2.0.2"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://killerclaws12/giveaways"
+  },
+  "devDependencies": {
+    "node": "^16.9.1"
+  }
+}
